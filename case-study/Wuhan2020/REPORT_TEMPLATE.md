@@ -18,8 +18,23 @@ Statement: All member information data used in the member analysis is not disclo
 
 As of May 20, 2020, the number of participants determined by the Wuhan2020 open source community through the statistics of participants' email addresses is 4,095. Subsequently, volunteer certificates were issued through the email of volunteers, and a total of 1,942 people received Wuhan2020 volunteer certificates.
 
-![All mailbox types in the community, total 4095](https://github.com/16647615268/python/blob/master/wuhan2020/email_all.png)
-![Types of mailboxes that have received volunteer certificates, total 1942](https://github.com/16647615268/python/blob/master/wuhan2020/email_sign.png)
+<center>
+    <img 
+    src="https://github.com/16647615268/python/blob/master/wuhan2020/email_all.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    color: #999;
+    padding: 2px;">Types of mailboxes that have received volunteer certificates, total 1942</div>
+</center>
+
+<center>
+    <img 
+    src="https://github.com/16647615268/python/blob/master/wuhan2020/email_all.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    color: #999;
+    padding: 2px;">All mailbox types in the community, total 4095</div>
+</center>
 
 We can roughly estimate the occupation and age ratio of community members through mailbox types and other data. For example, the education mailbox is used by the teachers who participated in Wuhan2020, and the QQ mailbox users are mostly young people born after 1995.
 
@@ -28,6 +43,15 @@ In addition, we found 16 Alibaba email,5 liulishuo email, 4 Jd email, graphite, 
 In the early stage of Wuhan2020 project, a total of 1,606 pieces of information about the occupation and education of volunteers were collected. According to the collected information of volunteers, these volunteers could be used as samples for member analysis.
 
 The occupations of community members classify 
+<center>
+    <img 
+    src="https://github.com/16647615268/python/blob/master/wuhan2020/prefess.png">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    color: #999;
+    padding: 2px;">Job analysis of community members01</div>
+</center>
+
 ![Job analysis of community members01](https://github.com/16647615268/python/blob/master/wuhan2020/prefess.png)![Job analysis of community members02](https://github.com/16647615268/python/blob/master/wuhan2020/prefess02.png)
 
 The difference between the two figures above is that different dict order is used to divide the careers of members. The dict order in Figure 1 is that of students, engineers, programmers and designers. The dict sequence in Figure 2 is programmer, engineer, student, and designer. The purpose of this design is to distinguish community members with multiple professional identities. Use a class in Figure 1 cut a class in Figure 2 is the number of members of multiple identities.
